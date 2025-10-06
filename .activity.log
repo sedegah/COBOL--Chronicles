@@ -94,3 +94,4 @@
 // Fix typo in COBOL README 1759760274
 // Add indexed file example with REWRITE 1759760274
 // Document Procedure Division tips 1759760274
+// Add batch job scheduling sample 1759790578
