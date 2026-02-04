@@ -1,18 +1,14 @@
-# COBOL Chronicles: Session 6 – Strings
+# COBOL Chronicles: Session 06 – Strings
 
-This session explores common string operations with `STRING` and `INSPECT`.
+**String Toolbox**
+- `STRING` to build a full name
+- Reference modification for initials
+- `INSPECT` for replacement
 
-## Goals
-
-- Build a full name using `STRING`
-- Extract initials using reference modification
-- Replace characters with `INSPECT`
-
-## File Created
-
+**Files**
 - string-demo.cob
 
-## Code (Excerpt)
+### Sample
 
 ```cobol
        IDENTIFICATION DIVISION.

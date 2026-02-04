@@ -1,18 +1,15 @@
 # COBOL Chronicles: Session 11 – Paragraphs
 
-This session focuses on program structure using paragraphs and `PERFORM`.
+**Idea**
+Use paragraphs to keep logic tidy and reusable.
 
-## Goals
+**Paragraph Map**
+- MAIN-PARA → INIT-PARA → PROCESS-PARA → FINISH-PARA
 
-- Break logic into paragraphs
-- Use `PERFORM` to control flow
-- Keep programs readable and modular
-
-## File Created
-
+**Files**
 - paragraph-demo.cob
 
-## Code (Excerpt)
+### Example
 
 ```cobol
        IDENTIFICATION DIVISION.

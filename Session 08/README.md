@@ -1,18 +1,14 @@
-# COBOL Chronicles: Session 8 – User Input
+# COBOL Chronicles: Session 08 – User Input
 
-This session covers basic console input using `ACCEPT`.
+**Flow**
+1. `DISPLAY` prompt
+2. `ACCEPT` response
+3. Echo back
 
-## Goals
-
-- Prompt the user with `DISPLAY`
-- Read values using `ACCEPT`
-- Echo input back to the console
-
-## File Created
-
+**Files**
 - input-demo.cob
 
-## Code (Excerpt)
+### Example
 
 ```cobol
        IDENTIFICATION DIVISION.

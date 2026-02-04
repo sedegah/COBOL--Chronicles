@@ -1,18 +1,14 @@
 # COBOL Chronicles: Session 12 – Mini Project (Student Average)
 
-This session ties together input, tables, and arithmetic to compute an average score.
+**Project Brief**
+- Inputs: 3 scores
+- Process: sum + average
+- Output: average score
 
-## Goals
-
-- Use a small table with `OCCURS`
-- Collect user input with `ACCEPT`
-- Compute and display an average
-
-## File Created
-
+**Files**
 - student-average.cob
 
-## Code (Excerpt)
+### Example
 
 ```cobol
        IDENTIFICATION DIVISION.

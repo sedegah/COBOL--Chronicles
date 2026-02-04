@@ -1,18 +1,16 @@
 # COBOL Chronicles: Session 10 – Dates
 
-This session shows how to retrieve and format the current date using `FUNCTION CURRENT-DATE`.
+**Focus**: date retrieval + simple parsing
 
-## Goals
+**Mapping**
+- YYYY = positions 1–4
+- MM   = positions 5–6
+- DD   = positions 7–8
 
-- Use `FUNCTION CURRENT-DATE`
-- Parse year, month, and day
-- Display a formatted date string
-
-## File Created
-
+**Files**
 - date-demo.cob
 
-## Code (Excerpt)
+### Example
 
 ```cobol
        IDENTIFICATION DIVISION.

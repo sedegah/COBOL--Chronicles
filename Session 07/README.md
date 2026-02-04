@@ -1,18 +1,16 @@
-# COBOL Chronicles: Session 7 – Tables and Loops
+# COBOL Chronicles: Session 07 – Tables and Loops
 
-This session introduces arrays (tables) and loop control with `PERFORM VARYING`.
+**Theme**: arrays (`OCCURS`) + `PERFORM VARYING`
 
-## Goals
+**What Happens**
+1. Fill a 5-item table.
+2. Add to `TOTAL` as we go.
+3. Compute an average.
 
-- Define a table with `OCCURS`
-- Populate values in a loop
-- Compute totals and averages
-
-## File Created
-
+**Files**
 - table-demo.cob
 
-## Code (Excerpt)
+### Example
 
 ```cobol
        IDENTIFICATION DIVISION.

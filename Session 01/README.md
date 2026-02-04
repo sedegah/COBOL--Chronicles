@@ -1,18 +1,20 @@
-# COBOL Chronicles: Session 1 - Hello World
+# COBOL Chronicles: Session 01 — Hello World
 
-Welcome to the first entry in my journey to learning COBOL, one of the oldest and most legendary programming languages in the world of computing.
+**Snapshot**
+- First COBOL program
+- Classic greeting output
 
----
+**Files**
+| File | Purpose |
+| --- | --- |
+| helloworld.cob | Prints a hello message |
 
-##  What I Did
+**Key Steps**
+1. Define `PROGRAM-ID`.
+2. Use `DISPLAY` to show text.
+3. End with `STOP RUN`.
 
-###  Created My First COBOL Program
-- File: `helloworld.cob`
-- Purpose: Display the classic "Hello, World from COBOL!" message
-- Compiler: [GnuCOBOL](https://gnucobol.sourceforge.io/)
-
-### Code
-
+**Snippet**
 ```cobol
        IDENTIFICATION DIVISION.
        PROGRAM-ID. HELLO-WORLD.
@@ -20,3 +22,4 @@ Welcome to the first entry in my journey to learning COBOL, one of the oldest an
        PROCEDURE DIVISION.
            DISPLAY "Hello, World from COBOL!".
            STOP RUN.
+```

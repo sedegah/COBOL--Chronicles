@@ -1,22 +1,23 @@
-# COBOL Arithmetic Operations Demo
+# COBOL Chronicles: Session 03 – Arithmetic Demo
 
-This COBOL program demonstrates basic arithmetic operations using standard COBOL statements. It is designed for educational purposes to help beginners understand how arithmetic is performed in COBOL.
+**Quick Summary**
+This program showcases the classic COBOL arithmetic verbs plus `COMPUTE`.
 
-## Features
+**Operations Covered**
+- ADD, SUBTRACT, MULTIPLY, DIVIDE
+- COMPUTE with a compound expression
 
-The program performs the following operations using two predefined numbers (`NUM1 = 20` and `NUM2 = 4`):
+**File**
+- arith-demo.cob
 
-- **Addition** using the `ADD` statement
-- **Subtraction** using the `SUBTRACT` statement
-- **Multiplication** using the `MULTIPLY` statement
-- **Division** using the `DIVIDE` statement
-- **Computation** using the `COMPUTE` statement with a compound expression
+**Structure Map**
+1. IDENTIFICATION DIVISION
+2. DATA DIVISION
+3. PROCEDURE DIVISION
 
-## Code Structure
-
-The program is organized into the following COBOL divisions:
-
-- **IDENTIFICATION DIVISION**: Program metadata
-- **DATA DIVISION**: Variable declarations
-- **PROCEDURE DIVISION**: Execution logic with arithmetic operations and output
+**Peek (short)**
+```text
+	ADD NUM1 TO NUM2 GIVING RESULT.
+	SUBTRACT NUM2 FROM NUM1 GIVING RESULT.
+	COMPUTE RESULT = (NUM1 + NUM2) * 3.
 

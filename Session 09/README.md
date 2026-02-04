@@ -1,18 +1,17 @@
-# COBOL Chronicles: Session 9 – Numeric Editing
+# COBOL Chronicles: Session 09 – Numeric Editing
 
-This session demonstrates formatted numeric output using edited PIC clauses.
+**Why this matters**
+Edited PIC clauses make numeric output report-ready.
 
-## Goals
+**Highlights**
+- Decimal totals
+- Currency-style formats
+- Mini report output
 
-- Compute totals with decimals
-- Format numbers with editing symbols
-- Present a mini report
-
-## File Created
-
+**Files**
 - report-demo.cob
 
-## Code (Excerpt)
+### Example
 
 ```cobol
        IDENTIFICATION DIVISION.

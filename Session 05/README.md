@@ -1,18 +1,17 @@
-# COBOL Chronicles: Session 5 – Conditionals
+# COBOL Chronicles: Session 05 – Conditionals
 
-This session focuses on decision-making in COBOL using `IF` and `EVALUATE`.
+**Focus**
+Decision-making with `IF` and `EVALUATE`.
 
-## Goals
+**Mini Checklist**
+- Multi-branch grading with `EVALUATE`
+- Status messaging with `IF/ELSE`
+- Clear output labels
 
-- Use `EVALUATE` for multi-branch conditions
-- Apply `IF/ELSE` for status messaging
-- Display results clearly
-
-## File Created
-
+**Files**
 - condition-demo.cob
 
-## Code (Excerpt)
+### Example
 
 ```cobol
        IDENTIFICATION DIVISION.
